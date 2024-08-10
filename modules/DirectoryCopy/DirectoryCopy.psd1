@@ -9,7 +9,8 @@
         'Get-DirectoryFiles',
         'Show-SearchedObjects',
         'Show-Results',
-        'Copy-Objects'
+        'Copy-Objects',
+        'Start-DRPDirectoryCopy'
     )
     RequiredModules = @()
     RequiredAssemblies = @()
@@ -21,6 +22,12 @@
     ScriptsToProcess = @()
     AliasesToExport = @()
     VariablesToExport = @()
-    CmdletsToExport = @()
+    CmdletsToExport = @(
+        'Get-DirectoryFiles',
+        'Show-SearchedObjects',
+        'Show-Results',
+        'Copy-Objects',
+        'Start-DRPDirectoryCopy'
+    )
     PrivateData = @{}
 }
